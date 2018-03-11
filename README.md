@@ -2,7 +2,8 @@
 Begginner code for machine learning kick start:::
 Series implemented and tested on octave:::
 Simple code ...DONE FROM SCRATH on easily understandable data and visualization
-1.naive bayes
+1.
+naive bayes
 2.svm
 3.decision tree
 4.linear regression
