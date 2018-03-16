@@ -1,25 +1,24 @@
-# COMING SOON .. Kick-start-machine-learning
+# Kick-start-machine-learning
 ## Begginner code for machine learning kick start
-Series implemented and tested on octave:::
+Written in python with sklearn as dependency
 
-Simple code ..**DONE FROM SCRATCH** on easily understandable data and visualization
+1. Naive bayes
 
-1.Naive bayes
+2. SVM
 
-2.SVM
+3. Decision tree
 
-3.Decision tree
+4. Linear regression
 
-4.Linear regression
+5. Logistic regression
 
-5.Logistic regression
+6. K means neighbours
 
-6.K means neighbours
+7. Ensemble learning
 
-7.Ensemble learning
+8. K means clustering
 
-8.K means clustering
+9. Lasso regression
 
-9.Lasso regression
+10. Neural network (coming soon..)
 
-10.Neural network
