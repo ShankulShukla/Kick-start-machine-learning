@@ -1,4 +1,4 @@
-# Kick-start-machine-learning
+# COMING SOON Kick-start-machine-learning
 ## Begginner code for machine learning kick start
 Series implemented and tested on octave:::
 
