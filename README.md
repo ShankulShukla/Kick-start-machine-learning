@@ -20,5 +20,5 @@ Written in python with sklearn as dependency
 
 9. Lasso regression
 
-10. Neural network (coming soon..)
+10. Neural network (Done)
 
