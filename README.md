@@ -3,4 +3,4 @@
 
 *  Written each implementation from scratch using several dataset
 *  Files include the code plus the data
-*  Includes algorithm from different domains -  **regression, classifiation, dimensionality reduction, clustering, ensembles, neural networks, trees, etc
+*  Includes algorithm from different domains -  **regression, classifiation, dimensionality reduction, clustering, ensembles, neural networks, trees, etc**
