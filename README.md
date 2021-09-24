@@ -1,14 +1,14 @@
 # Popular machine learning algorithms implemented from scratch 
 
-Implementing important machine learning algorithms from bare bones just using NumPy as primary dependency. Goal for this repository is to cover extensively all major algortihms and code simple implementations so that anyone can kick start their machine learning journey.
+Implementing important machine learning algorithms from bare-bones just using NumPy as the primary dependency. The goal for this repository is to cover extensively all major algorithms and code simple implementations so that anyone can kick start their machine learning journey.
 
 ## Regression
 
 - ### Linear Regression
-  Goal of linear regression is to model the realtionaship between explanatory feature *x* and continous values response *y*. 
+  The goal of linear regression is to model the relationship between explanatory feature *x* and continuous values response *y*. 
 
 - ### Ridge Regression
-  Ridge regression is an L2 penalized model where we simply add the suqred sum of weights to our cost funstion of regression.
+  Ridge regression is an L2 penalized model where we simply add the squared sum of weights to our cost function of regression.
 
 - ### Lasso regression
   Lasso Regression includes an L1 penalty to our cost function. This penalty allows some coefficient values to go to the value of zero, allowing input variables to be effectively removed from the model, providing a type of automatic feature selection.
@@ -18,7 +18,7 @@ Implementing important machine learning algorithms from bare bones just using Nu
 ## Gradient descent optimization algorithms
 
 - ### Stochastic Gradient Descent (SGD)
-  Stochastic gradient descent (SGD) in gradient descent optimiser that performs parameter update for each training example and label.
+  Stochastic gradient descent (SGD) in gradient descent optimizer that performs parameter update for each training example and label.
   
 - ### SGD with momentum
   SGD has trouble navigating ravines, i.e. areas where the surface curves much more steeply in one dimension than in another, which are common around local optima. Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillation.
@@ -27,7 +27,7 @@ Implementing important machine learning algorithms from bare bones just using Nu
   Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
   
 - ### Adam
-  Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments.
+  Adam optimization is a stochastic gradient descent method that is based on the adaptive estimation of first-order and second-order moments.
   
 ## Neural network
 
@@ -50,11 +50,11 @@ Implementing important machine learning algorithms from bare bones just using Nu
   
 ## Support Vector Machine
 
-SVM algorithm is a supervised learning algorithm that find the best line or decision boundary for classification. It works on the concept of maximum margin classification. SVM algorithm finds the closest point of the lines from both the classes, called support vectors. The distance between the vectors and the hyperplane is called as margin. And the goal of SVM is to maximize this margin. 
+SVM algorithm is a supervised learning algorithm that finds the best line or decision boundary for classification. It works on the concept of maximum margin classification. SVM algorithm finds the closest point of the lines from both the classes, called support vectors. The distance between the vectors and the hyperplane is called a margin. And the goal of SVM is to maximize this margin. 
 
 ## Decision tree
 
-A Decision tree is a supervised learning technique which follows flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. 
+A Decision tree is a supervised learning technique that follows a flowchart-like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. 
 
 ## K-Means Clustering
 
@@ -62,16 +62,16 @@ K-Means Clustering is an Unsupervised Learning algorithm, which groups the unlab
 
 ## Naive Bayes
 
-Naive Bayes algorithm is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. The name *naive* is used because it assumes the features that go into the model is independent of each other.
+The Naive Bayes algorithm is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. The name *naive* is used because it assumes the features that go into the model are independent of each other.
 
 ## Linear Discriminant Analysis
 
-Linear Discriminant Analysis (LDA) is the commonly used dimensionality reduction technique in supervised learning. LDA, does the separation by computing the directions (“linear discriminants”) that represent the axis that enhances the separation between multiple classes. 
+Linear Discriminant Analysis (LDA) is the commonly used dimensionality reduction technique in supervised learning. LDA does the separation by computing the directions (“linear discriminants”) that represent the axis that enhances the separation between multiple classes. 
 
 ## K-nearest neighbors
 
-K-nearest neighbors (KNN) algorithm is a type of supervised ML algorithm which can be used for both classification as well as regression predictive problems. K-nearest neighbors (KNN) algorithm uses ‘feature similarity’ to predict the values of new datapoints which further means that the new data point will be assigned a value based on how closely it matches the points in the training set.
+K-nearest neighbors (KNN) algorithm is a type of supervised ML algorithm that can be used for both classifications as well as regression predictive problems. K-nearest neighbors (KNN) algorithm uses ‘feature similarity’ to predict the values of new datapoints which further means that the new data point will be assigned a value based on how closely it matches the points in the training set.
 
 ## Logistic Regression
 
-Logistic regression predicts the output of a categorical dependent variable. Therefore the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it gives the probabilistic values which lie between 0 and 1.  In this fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
+Logistic regression predicts the output of a categorical dependent variable. Therefore the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it gives the probabilistic values which lie between 0 and 1.  This fits an "S" shaped logistic function, which predicts two maximum values (0 or 1).
