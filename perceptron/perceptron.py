@@ -26,8 +26,7 @@ class perceptron:
         pred = np.dot(X, self.weight)
         return np.where(pred>0.0,1,0)
 
-os.chdir('C:/Users\shankul\Desktop/all')
-df = pd.read_csv('titanic_dataset.csv')
+df = pd.read_csv(os.getcwd()+'/titanic_dataset.csv')
 df=df.drop(['Ticket','Cabin','PassengerId'],axis=1)
 # encoding the sex and embarked as in integers form
 df['Sex'] = df['Sex'].map({'male':1,'female':0})

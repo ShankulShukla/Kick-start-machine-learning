@@ -2,6 +2,7 @@
 import numpy as np
 import os
 import pandas as pd
+
 class logistic_classification:
     def __init__(self, lr, rs, n_iter, rl):
         self.learning_rate = lr
@@ -35,23 +36,29 @@ class logistic_classification:
         pred = self.sigmoid(np.dot(X, self.weight))
         return np.where(pred>=0.5,1,0)
 
-os.chdir('C:/Users\shankul\Desktop/all')
-df = pd.read_csv('titanic_dataset.csv')
+df = pd.read_csv(os.getcwd()+'/titanic_dataset.csv')
+
+# Applying preprocessing
 df=df.drop(['Ticket','Cabin','PassengerId'],axis=1)
 #encoding the sex and embarked as in integers form
 df['Sex'] = df['Sex'].map({'male':1,'female':0})
 df['Embarked'] = df['Embarked'].map({'S':0,'C':1,'Q':2})
 df['tot_par'] = df['SibSp']+df['Parch']
+
 #we can drop the SibSp and Parch column
 df = df.drop(['SibSp','Parch'],axis=1)
+
+# encoding the titles
 df['titles'] = df.Name.str.extract(' ([\w]+)\.',expand = False)
 df['titles']=df['titles'].map({'Miss':4,'Mrs':3,'Mr':2,'Master':1})
 df['titles'] = df['titles'].fillna(0)
 df = df.drop('Name',axis=1)
 df = df.dropna(subset=['Age','Embarked'])
+
 #normalize the fare
 df['Fare'] = (df['Fare'] - df['Fare'].mean()) / (df['Fare'].std())
 df['Age'] = (df['Age'] - df['Age'].mean()) / (df['Age'].std())
+
 df = df.values
 X, y = df[:, 1:], df[:, 0].reshape(-1, 1)
 clf = logistic_classification(lr=0.00005,rs=25,n_iter=100,rl=0.01)
