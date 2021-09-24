@@ -5,10 +5,10 @@ Implementing important machine learning algorithms from bare bones just using Nu
 ## Regression
 
 - ### Linear Regression
-  Goal of linear regression is to model the realtionaship between explanatory feature *x* and continous values response *y*. [Implementation](Perceptron)
+  Goal of linear regression is to model the realtionaship between explanatory feature *x* and continous values response *y*. 
 
 - ### Ridge Regression
-  Ridge regression is an L2 penalized model where we simply add the suqred sum of weights to our cost funstion of regression. [Imple]
+  Ridge regression is an L2 penalized model where we simply add the suqred sum of weights to our cost funstion of regression.
 
 - ### Lasso regression
   Lasso Regression includes an L1 penalty to our cost function. This penalty allows some coefficient values to go to the value of zero, allowing input variables to be effectively removed from the model, providing a type of automatic feature selection.
