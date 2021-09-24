@@ -64,6 +64,10 @@ K-Means Clustering is an Unsupervised Learning algorithm, which groups the unlab
 
 Naive Bayes algorithm is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. The name *naive* is used because it assumes the features that go into the model is independent of each other.
 
+## Linear Discriminant Analysis
+
+Linear Discriminant Analysis (LDA) is the commonly used dimensionality reduction technique in supervised learning. LDA, does the separation by computing the directions (“linear discriminants”) that represent the axis that enhances the separation between multiple classes. 
+
 ## K-nearest neighbors
 
 K-nearest neighbors (KNN) algorithm is a type of supervised ML algorithm which can be used for both classification as well as regression predictive problems. K-nearest neighbors (KNN) algorithm uses ‘feature similarity’ to predict the values of new datapoints which further means that the new data point will be assigned a value based on how closely it matches the points in the training set.
